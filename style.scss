@@ -1,0 +1,129 @@
+@import 'vars';
+
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top{
+    background: url(./img/background.jpg);
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top{
+    &__title{
+        color: $color-text;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 217px;
+        padding-left: 120px;
+        width: 789px;
+    }
+
+    &__text{
+        color: $color-text;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        padding-left: 120px;
+        padding-top: 32px;
+        width: 481px;
+
+        &_bold{
+            color: $color-text;
+            font-size: 18px;
+            font-style: normal;
+            line-height: 32px;
+            font-weight: 700;
+        }
+    }
+
+    
+
+    &__button{
+        
+        padding-left: 120px;
+        padding-top: 44px;
+        width: 234px;
+        height: 48px;
+        transition: 0.3s;
+    }
+
+    &__button:hover{
+        transform: scale(1.05);
+    }
+
+    &__button-text{
+        
+        background: #9C0332;
+        border-radius: 30px;
+        color: $color-text;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        font-style: normal;
+        box-sizing: border-box;
+        padding-left: 74px;
+        padding-top: 13px;
+        padding-right: 74px;
+        padding-bottom: 13px;
+
+    }
+
+}
+
+.menu{
+    background-color: $background-color;
+    height: 556px;
+
+
+    &__content{
+        display: flex;
+        align-items: center;
+        padding-left: calc(50% - 600px);
+        padding-right: calc(50% - 600px);
+        gap: 32px;
+        width: 379px;
+        padding-right: 120px;
+        box-sizing: border-box;
+        padding-top: 128px;
+        background-color: $background-color;
+    }
+
+ 
+}
+
+.container {
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    color: $color-text;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    font-style: normal;
+    
+  }
+
+  .container:hover {
+    transform: scale(1.05);
+  }
