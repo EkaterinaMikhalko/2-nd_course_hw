@@ -3,10 +3,10 @@ alert (a);
 a = 20;
 alert (a);
 
-let yearOfIPhoneIssue = 2007;
+const yearOfIPhoneIssue = 2007;
 alert(`Год выпуска первого IPhone ${yearOfIPhoneIssue}`)
 
-let jsCreator = 'Брендан Эйх';
+const jsCreator = 'Брендан Эйх';
 alert (`Создатель JavaScript ${jsCreator}`);
 
 let numberOne = 10;
