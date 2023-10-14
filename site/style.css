@@ -27,10 +27,12 @@
   .menu__content {
     display: flex;
     flex-direction: column;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
     padding-bottom: 128px;
     width: 343px;
+  }
+  .menu__link {
+    width: 343px;
+    padding-left: 16px;
   }
 }
 * {

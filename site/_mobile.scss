@@ -30,17 +30,22 @@
             padding-left: 71px !important;
             padding-right: 71px !important;
         
-        }
     }
+}
 
     .menu{
         &__content{
             display: flex;
             flex-direction: column;
-            padding-left: 16px !important;
-            padding-right: 16px !important;
             padding-bottom: 128px;
             width: 343px;
         }
+
+        &__link{
+            width: 343px;
+            padding-left: 16px;
+        
+        }
     }
 }
+
