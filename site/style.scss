@@ -1,5 +1,5 @@
 @import 'vars';
-@import 'mobile';
+
 
 *{
     margin:0;
@@ -123,3 +123,5 @@ body{
   .container:hover {
     transform: scale(1.05);
   }
+
+  @import 'mobile';

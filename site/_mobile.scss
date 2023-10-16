@@ -1,23 +1,23 @@
 @media (max-width: 376px){
     .top{
         &__title{
-            font-size: 32px !important;
-            padding-left: 16px !important;
-            padding-right: 16px !important;
+            font-size: 32px;
+            padding-left: 16px;
+            padding-right: 16px;
             text-align: center;
         }
     
 
         &__text{
-        font-size: 14px !important;
-        padding-left: 16px !important;
-        padding-right: 16px !important;
+        font-size: 14px;
+        padding-left: 16px;
+        padding-right: 16px;
         text-align: center;
-        width: 343px !important;
+        width: 343px;
         
 
             &_bold{
-            font-size: 14px !important;
+            font-size: 14px;
             font-style: normal;
             font-weight: 700;
             line-height: 22px;
@@ -27,8 +27,8 @@
         &__button{
             display: flex;
             align-items: center;
-            padding-left: 71px !important;
-            padding-right: 71px !important;
+            padding-left: 71px;
+            padding-right: 71px;
         
     }
 }
@@ -38,8 +38,8 @@
             display: flex;
             flex-direction: column;
             padding-bottom: 128px;
-            padding-left: 16px !important;
-            padding-right: 16px !important;
+            padding-left: 16px;
+            padding-right: 16px;
             width: 100%;
         }
 
