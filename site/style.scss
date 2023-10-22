@@ -51,37 +51,35 @@ body{
         }
     }
 
+}
+
+.button{
+        
+    padding-left: 120px;
+    padding-top: 44px;
+    width: 234px;
+    height: 48px;
+    transition: 0.3s;
+}
+
+.button:hover{
+    transform: scale(1.05);
+}
+
+.button-text{
     
-
-    &__button{
-        
-        padding-left: 120px;
-        padding-top: 44px;
-        width: 234px;
-        height: 48px;
-        transition: 0.3s;
-    }
-
-    &__button:hover{
-        transform: scale(1.05);
-    }
-
-    &__button-text{
-        
-        background: #9C0332;
-        border-radius: 30px;
-        color: $color-text;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: normal;
-        font-style: normal;
-        box-sizing: border-box;
-        padding-left: 74px;
-        padding-top: 13px;
-        padding-right: 74px;
-        padding-bottom: 13px;
-
-    }
+    background: #9C0332;
+    border-radius: 30px;
+    color: $color-text;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+    box-sizing: border-box;
+    padding-left: 74px;
+    padding-top: 13px;
+    padding-right: 74px;
+    padding-bottom: 13px;
 
 }
 
@@ -123,5 +121,49 @@ body{
   .container:hover {
     transform: scale(1.05);
   }
+
+  .firstGame{
+    background-color: $background-color;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 234px;
+
+    &__picture{
+        padding-top: 282px;
+        padding-right: 116px;
+        padding-left: 135px;
+    }
+  }
+
+  .season {
+    
+    &__title{
+        color: $color-text;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 120px;
+        padding-top: 282px;
+    
+
+        &__mob{
+            display: none;
+        }
+    }
+
+    &__text{
+        color: $color-text;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        padding-left: 120px;
+        padding-top: 32px;
+    }
+
+  }
+
+  
 
   @import 'mobile';

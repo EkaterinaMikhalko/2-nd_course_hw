@@ -24,13 +24,15 @@
             }
     }
 
-        &__button{
-            display: flex;
-            align-items: center;
-            padding-left: 71px;
-            padding-right: 71px;
         
-    }
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    padding-left: 71px;
+    padding-right: 71px;
+
 }
 
     .menu{
@@ -48,5 +50,50 @@
         }
     
     }
+
+    .firstGame{
+        display: flex;
+        flex-wrap: wrap;
+
+        &__picture{
+            padding-left: 16px;
+            padding-top: 64px;
+        }
+
+        &__image{
+            width: 344px;
+            height: 236px;
+        }
+    }
+
+    .season{
+        &__title{
+            display: none;
+        
+            &_mob{
+                display: block;
+                color: $color-text;
+                padding-top: 51px;
+                text-align: center;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    
+        &__text{
+            padding-top: 32px;
+            padding-left: 16px;
+            padding-right: 16px;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+        }
+    }
 }
+
+
 
