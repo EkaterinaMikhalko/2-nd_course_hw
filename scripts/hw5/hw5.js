@@ -52,9 +52,6 @@ function welcome(age) {
 welcome (prompt (`Сколько тебе лет?`));
 
 
-let a;
-let b;
-
 function number(a,b) {
     if (isNaN (a) || isNaN(b)){
         alert ('Одно или оба значения не являются числом')
@@ -79,14 +76,14 @@ function cube(n) {
 
     }
     cube (prompt ('Введите число'));
-    */
-        
-    const p = 3.14;
+    
+    */    
+    ;
     function area() {
-        return p*this.radius**2;
+        return Math.PI*this.radius**2;
     }
     function perimeter() {
-        return 2*p*this.radius;
+        return 2*Math.PI*this.radius;
     }
 
     const circle1 = {
