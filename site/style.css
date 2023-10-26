@@ -111,7 +111,6 @@ body {
 .firstGame {
   background-color: #000915;
   display: flex;
-  justify-content: space-between;
   padding-bottom: 234px;
 }
 .firstGame__picture {
