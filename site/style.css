@@ -45,17 +45,20 @@ body {
   line-height: 32px;
   font-weight: 700;
 }
-.top__button {
+
+.button {
   padding-left: 120px;
   padding-top: 44px;
   width: 234px;
   height: 48px;
   transition: 0.3s;
 }
-.top__button:hover {
+
+.button:hover {
   transform: scale(1.05);
 }
-.top__button-text {
+
+.button-text {
   background: #9C0332;
   border-radius: 30px;
   color: #FFFFFF;
@@ -105,6 +108,40 @@ body {
   transform: scale(1.05);
 }
 
+.firstGame {
+  background-color: #000915;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 234px;
+}
+.firstGame__picture {
+  padding-top: 282px;
+  padding-right: 116px;
+  padding-left: 135px;
+}
+
+.season__title {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 120px;
+  padding-top: 282px;
+}
+.season__title__mob {
+  display: none;
+}
+.season__text {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  padding-left: 120px;
+  padding-top: 32px;
+}
+
 @media (max-width: 376px) {
   .top__title {
     font-size: 32px;
@@ -125,7 +162,7 @@ body {
     font-weight: 700;
     line-height: 22px;
   }
-  .top__button {
+  .button {
     display: flex;
     align-items: center;
     padding-left: 71px;
@@ -141,5 +178,40 @@ body {
   }
   .menu__link {
     width: 100%;
+  }
+  .firstGame {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .firstGame__picture {
+    padding-left: 16px;
+    padding-top: 64px;
+  }
+  .firstGame__image {
+    width: 344px;
+    height: 236px;
+  }
+  .season__title {
+    display: none;
+  }
+  .season__title_mob {
+    display: block;
+    color: #FFFFFF;
+    padding-top: 51px;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .season__text {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
