@@ -16,11 +16,16 @@ numbs = numbs.join(' ');
 console.log(numbs);
 
 
-let arr = [
-    [1, 1, 1], 
-    [1, 1, 1], 
-    [1, 1, 1],
-]
+
+let arr = [];
+
+for( let i = 0; i < 3; i++){
+    let innerArr = [];
+     for (let j = 0; j < 3; j++) {
+        innerArr.push(1);
+     }
+     arr.push(innerArr);
+}
 console.log(arr);
 
 
@@ -49,9 +54,7 @@ if (numb == answer) {
 
 
 let letters = 'abcdef';
-let arrayLetters = letters.split('');
-arrayLetters = arrayLetters.reverse();
-arrayLetters = arrayLetters.join('');
+let arrayLetters = letters.split('').reverse().join('');
 console.log(arrayLetters);
 
 
@@ -84,11 +87,11 @@ return words.map ((word) => {
 })
 }
 console.log (getWordsLength(['слово', 'предложение', 'массив']));
-*/
 
+*/
 function filterPositive(array) {
     let result = [];
-    for  (let i = 0; i>array.length; i++){
+    for  (let i = 0; i<array.length; i++){
     if (array[i]<0){
         result.push (array[i]);
     }
